@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "scripts": {
+    "test": "./node_modules/.bin/jest --watch"
+  },
+  "engines": {
+    "node": "8.*",
+    "npm": "5.*"
+  },
+  "devDependencies": {
+    "jest": "^25.2.4",
+    "jest-cli": "^25.2.4",
+    "jest-puppeteer": "^3.3.1",
+    "puppeteer": "^1.20.0"
+  },
+  "dependencies": {
+    "mkdirp": "^1.0.3"
+  }
+}
