@@ -59,8 +59,6 @@ describe("Create a new user", () => {
         await page.$eval( '.new-user-add', el => el.click() );
         await page.screenshot({path: './tests/img/newUser5.png'});
 
-
-      
     }, timeout);
 
 
